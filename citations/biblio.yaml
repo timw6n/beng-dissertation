@@ -1,0 +1,649 @@
+---
+references:
+- id: nasam1
+  title: Mariner 1
+  type: webpage
+  author: 
+  - family: NASA Space Science Data Center
+  URL: http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=MARIN1
+  accessed:
+  - year: 2016
+    month: 2
+    day: 4
+
+- id: asciicc
+  title: ASCII Character Codes Chart 1
+  type: webpage
+  author: 
+  - family: Microsoft Developer Network
+  URL: https://msdn.microsoft.com/en-us/library/60ecse8t.aspx
+  accessed:
+  - year: 2016
+    month: 2
+    day: 3
+
+- id: m1image
+  title: "Mariner 1 Launch"
+  type: webpage
+  author:
+  - family: Kennedy Space Center
+  URL: http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000608.html
+  accessed:
+  - year: 2016
+    month: 2
+    day: 7
+
+- id: llimage
+  title: "Bubble, Bubble, Build's In Trouble"
+  type: webpage
+  author:
+  - family: Pragmatic Automation
+  URL: https://web.archive.org/web/20140104051209/http://www.pragmaticautomation.com/cgi-bin/pragauto.cgi/Monitor/Devices/BubbleBubbleBuildsInTrouble.rdoc
+  accessed:
+  - year: 2016
+    month: 2
+    day: 7
+
+- id: complete
+  title: The Complete Guide to Software Testing
+  type: book
+  author:
+  - family: Hetzel
+    given: Bill
+  publisher: "QED Information Sciences, Inc."
+  edition: Second
+  issued:
+  - year: 1988
+
+- id: introduction
+  title: Introduction to Software Testing
+  type: book
+  author:
+  - family: Ammann
+    given: Paul
+  - family: Offutt
+    given: Jeff
+  publisher: "Cambridge University Press"
+  issued:
+  - year: 2008
+
+- id: bug
+  title: Log Book With Computer Bug
+  type: webpage
+  author:
+  - family: Smithsonian National Museum of American History
+  URL: http://americanhistory.si.edu/collections/search/object/nmah_334663
+  accessed:
+  - year: 2016
+    month: 2
+    day: 7
+
+- id: mtcarol
+  title: "A Mutation Carol: Past, Present and Future"
+  type: article-journal
+  author:
+  - family: Offutt
+    given: Jeff
+  container-title: Information and Software Technology
+  volume: 53
+  issue: 10
+  page: 1098-1107
+  issued:
+  - year: 2011
+
+- id: mimd
+  title: "Mutation Testing of Software Using a MIMD Computer"
+  type: article
+  author:
+  - family: Offutt
+    given: Jeff
+  - family: Pargas
+    given: Roy
+  - family: Fichter
+    given: Scott
+  - family: Khambekar
+    given: Prashant
+  container-title: Proceedings of the International Conference on Parallel Processing
+  page: II 257-266
+  issued:
+  - year: 1992
+
+- id: fi
+  title: "Fault injection spot-checks computer system dependability"
+  type: article
+  author:
+  - family: Carreira
+    given: Joao Viegas
+  - family: Costa
+    given: Dlamantino
+  - family: Silva
+    given: Joao Gabriel
+  container-title: IEEE Spectrum
+  page: 50-55
+  issued:
+  - year: 1999
+    month: 8
+
+- id: asmt
+  title: "An Analysis and Survey of the Development of Mutation Testing"
+  type: article
+  author:
+  - family: Jia
+    given: Yue
+  - family: Harman
+    given: Mark
+  container-title: IEEE Transactions on Software Engineering
+  volume: 37
+  issue: 5
+  page: 649-678
+  issued:
+  - year: 2011
+    month: 9
+
+- id: oppy
+  title: "Operators for Mutation Testing of Python Programs"
+  type: article
+  author:
+  - family: Derezinska
+    given: Anna
+  - family: Halas
+    given: Konrad
+  container-title: "Warsaw University of Technology, ICS Research Report"
+  issued:
+  - year: 2014
+
+- id: anpy
+  title: "Analysis of Mutation Operators for the Python Language"
+  type: article
+  author:
+  - family: Derezinska
+    given: Anna
+  - family: Halas
+    given: Konrad
+  container-title: "Proceedings of the Ninth International Conference on Dependability and Complex Systems"
+  issued:
+  - year: 2014
+
+- id: mt2000
+  title: "Mutation 2000: Uniting the Orthogonal"
+  type: article
+  author:
+  - family: Offutt
+    given: Jeff
+  - family: Untch
+    given: Ronald H
+  container-title: "Mutation 2000: Mutation Testing in the Twentieth and the Twenty First Centuries"
+  page: 45-55
+  issued:
+  - year: 2000
+    month: 10
+
+- id: cctv
+  title: "Human factors in CCTV control rooms: A best practice guide"
+  type: webpage
+  author:
+    - family: "Centre for the Protection of National Infrastructure"
+  issued:
+    - year: 2014
+  URL: https://www.cpni.gov.uk/documents/publications/2014/2014001-human_factors_cctv_control_rooms.pdf
+  accessed:
+    - year: 2016
+      month: 3
+
+- id: go
+  title: "Combinatorics of Go"
+  type: article
+  author:
+    - family: Tromp
+      given: John
+    - family: Farnebäck
+      given: Gunnar
+  container-title: "Computers and Games"
+  page: 84-99
+  issued:
+    - year: 2006
+      month: 5
+
+- id: handbook
+  title: "A Handbook of Software and Systems Engineering: Empirical Observations, Laws and Theories"
+  type: book
+  author:
+    - family: Endres
+      given: Albert
+    - family: Rombach
+      given: Dieter
+  publisher: Pearson Education Ltd
+  issued:
+    - year: 2003
+
+- id: rspec
+  title: "The RSpec Book: Behaviour-Driven Development with RSpec, Cucumber, and Friends"
+  type: book
+  author:
+    - family: Chelimsky
+      given: David
+    - family: Astels
+      given: Dave
+    - family: Dennis
+      given: Zach
+    - family: Hellesoy
+      given: Aslak
+    - family: Helmkamp
+      given: Bryan
+    - family: North
+      given: Dan
+  publisher: The Pragmatic Bookshelf
+  issued:
+    - year: 2010
+
+- id: junit
+  title: "JUnit in Action"
+  type: book
+  author:
+    - family: Massol
+      given: Vincent
+    - family: Husted
+      given: Ted
+  publisher: Manning Publications Co.
+  issued:
+    - year: 2004
+
+- id: pfmj
+  title: Parallel Firm Mutation of Java Programs
+  type: article
+  author:
+    - family: Jackson
+      given: David
+    - family: Woodward
+      given: Martin R
+  container-title: Mutation testing for the new century
+  page: 55-61
+  issued:
+    - year: 2001
+
+- id: unittest
+  title: "Python 3 Documentation: 26.4. unittest — Unit testing framework"
+  type: webpage
+  author:
+  - family: Python Software Foundation
+  URL: https://docs.python.org/3/library/unittest.html
+  accessed:
+  - year: 2016
+    month: 4
+    day: 5
+
+- id: icse
+  title: How to Misuse Code Coverage
+  type: article
+  author:
+    - family: Marick
+      given: Brian
+  container-title: Proceedings of the 16th International Conference on Testing Computer Software
+  page: 16-18
+  issued:
+    - year: 1999
+      month: 6
+
+- id: sufficient
+  title: "An experimental determination of sufficient mutant operators"
+  author:
+    - family: Offutt
+      given: Jeff
+    - family: Lee
+      given: Ammei
+    - family: Rothermel
+      given: Gregg
+    - family: Untch
+      given: Roland H
+    - family: Zapf
+      given: Christian
+  type: article-journal
+  container-title: "ACM Transactions on Software Engineering and Methodology"
+  volume: 5
+  issue: 2
+  page: 99-118
+  issued:
+    - year: 1996
+      month: 4
+
+- id: arscores
+  title: "Intel's new Broadwell Xeon server CPUs offer up to 22 cores per socket"
+  type: webpage
+  author:
+  - family: Cunningham
+    given: Andrew
+  container-title: Ars Technica
+  URL: http://arstechnica.com/gadgets/2016/03/intels-new-broadwell-xeon-server-cpus-offer-up-to-22-cores-per-socket/
+  accessed:
+  - year: 2016
+    month: 4
+    day: 5
+  issued:
+    - year: 2016
+      month: 3
+      day: 31
+
+- id: compiler
+  title: "Using Compiler Optimization Techniques to Detect Equivalent Mutants"
+  type: article-journal
+  author:
+    - family: Offutt
+      given: Jeff
+    - family: Craft
+      given: W Michael
+  container-title: "Software Testing, Verification and Reliability"
+  volume: 4
+  issue: 3
+  page: 131-154
+  issued:
+    - year: 1994
+
+- id: regression
+  title: "Prioritizing Test Cases For Regression Testing"
+  type: article-journal
+  author:
+    - family: Rothermel
+      given: Gregg
+    - family: Untch
+      given: Roland H
+    - family: Chu
+      given: Chengyun
+    - family: Harrold
+      given: Mary Jean
+  container-title: "IEEE Transactions on Software Engineering"
+  volume: 27
+  issue: 10
+  issued:
+    - year: 2001
+      month: 10
+
+- id: survey
+  title: "An Analysis and Survey of the Development of Mutation Testing"
+  type: article-journal
+  author:
+    - family: Jia
+      given: Yue
+    - family: Harman
+      given: Mark
+  container-title: "IEEE Transactions on Software Engineering"
+  volume: 37
+  issue: 5
+  issued:
+    - year: 2010
+      month: 6
+
+- id: coveralls
+  type: webpage
+  title: "Coveralls: Deliver better code"
+  author:
+  - family: Lemur Heavy Industries
+  URL: https://coveralls.io/
+  accessed:
+  - year: 2016
+    month: 4
+    day: 6
+
+- id: codecov
+  type: webpage
+  title: "Codecov: Continuous code coverage"
+  author:
+    - family: "Codecov LLC"
+  URL: https://codecov.io/
+  accessed:
+  - year: 2016
+    month: 4
+    day: 23
+
+- id: fowler
+  type: webpage
+  title: "Continuous Integration"
+  author:
+    - family: Fowler
+      given: Martin
+  URL: http://www.martinfowler.com/articles/continuousIntegration.html
+  issued:
+    - year: 2006
+      month: 5
+      day: 1
+  accessed:
+    - year: 2016
+      month: 4
+      day: 6
+
+- id: pracdiff
+  type: article-journal
+  title: "Modeling continuous integration practice differences in industry software development"
+  author:
+    - family: Stahl
+      given: Daniel
+    - family: Bosch
+      given: Jan
+  container-title: "The Journal of Systems and Software"
+  volume: 87
+  page: 48-59
+  issued:
+    - year: 2014
+
+- id: agile
+  type: article
+  title: "Enabling Agile Testing Through Continuous Integration"
+  author:
+    - family: Stolberg
+      given: Sean
+  container-title: "Agile Conference"
+  issued:
+    - year: 2009
+
+- id: scaling
+  type: article-journal
+  title: "Scaling Continuous Integration"
+  author:
+    - family: Rogers
+      given: R Owen
+  container-title: "Extreme Programming and Agile Processes in Software Engineering: Proceedings of the 5th International Conference"
+  issued:
+    - year: 2004
+      month: 6
+
+- id: artagile
+  title: "The Art of Agile Development"
+  type: book
+  author:
+  - family: Shore
+    given: James
+  - family: Warden
+    given: Shane
+  publisher: "O'Reilly"
+  issued:
+  - year: 2007
+
+- id: cc
+  type: webpage
+  title: CruiseControl
+  URL: http://cruisecontrol.sourceforge.net/
+  accessed:
+    - year: 2016
+      month: 4
+      day: 6
+
+- id: jenkins
+  type: webpage
+  title: "Jenkins: Build great things at any scale"
+  URL: https://jenkins.io/
+  accessed:
+    - year: 2016
+      month: 4
+      day: 6
+
+- id: bamboo
+  type: webpage
+  title: "Bamboo: Build, Test, Deploy"
+  author:
+    - family: Atlassian Pty Ltd
+  URL: https://www.atlassian.com/software/bamboo
+  accessed:
+    - year: 2016
+      month: 4
+      day: 6
+
+- id: travis
+  type: webpage
+  title: "Travis CI: Test and Deploy with Confidence"
+  author:
+    - family: "Travis CI GmbH"
+  URL: https://travis-ci.org/
+  accessed:
+    - year: 2016
+      month: 4
+      day: 6
+
+- id: tcustom
+  type: webpage
+  title: "Customizing the Build — Travis CI"
+  author:
+    - family: "Travis CI GmbH"
+  URL: https://docs.travis-ci.com/user/customizing-the-build/
+  accessed:
+    - year: 2016
+      month: 4
+      day: 10
+
+- id: tenv
+  type: webpage
+  title: "The Build Environment — Travis CI"
+  author:
+    - family: "Travis CI GmbH"
+  URL: https://docs.travis-ci.com/user/ci-environment/
+  accessed:
+    - year: 2016
+      month: 4
+      day: 10
+
+- id: mutiny
+  type: webpage
+  title: "Mutiny: An experimental mutation testing framework for Ruby"
+  URL: http://www.mutiny.eu/
+  author:
+    - family: Rose
+      given: Louis
+  accessed:
+    - year: 2016
+      month: 4
+      day: 10
+
+- id: mutant
+  type: webpage
+  title: "Mutant: Mutation testing for Ruby"
+  URL: https://github.com/mbj/mutant
+  author:
+    - family: Schirp
+      given: Markus
+  accessed:
+    - year: 2016
+      month: 4
+      day: 10
+
+- id: multiprocessor
+  type: article-journal
+  title: "A linear time approximation algorithm for multiprocessor scheduling"
+  author:
+    - family: Finn
+      given: Greg
+    - family: Horowitz
+      given: Ellis
+  container-title: "BIT Numerical Mathematics"
+  volume: 19
+  issue: 3
+  page: 312-320
+  issued:
+    - year: 1979
+      month: 9
+
+- id: mlist
+  title: "Mutant README"
+  type: webpage
+  author:
+  - family: Schirp
+    given: Markus
+  URL: https://github.com/mbj/mutant/blob/b8c8f65/README.md
+  accessed:
+  - year: 2016
+    month: 4
+    day: 16
+
+- id: gaequotas
+  title: "Google Cloud Platform: App Engine Quotas"
+  type: webpage
+  author:
+    - family: Google Inc.
+  URL: https://cloud.google.com/appengine/docs/quotas
+  accessed:
+    - year: 2016
+      month: 4
+      day: 16
+
+- id: gaedatastore
+  title: "Google Cloud Platform: The Python DB Client Library for Cloud Datastore"
+  type: webpage
+  author:
+    - family: Google Inc.
+  URL: https://cloud.google.com/appengine/docs/python/datastore/
+  accessed:
+    - year: 2016
+      month: 4
+      day: 16
+
+- id: covsurvey
+  title: "A Survey of Coverage-Based Testing Tools"
+  type: article-journal
+  container-title: The Computer Journal
+  volume: 52
+  issue: 5
+  page: 589-597
+  issued:
+    - year: 2009
+  author:
+    - family: Yang
+      given: Qian
+    - family: Li
+      given: J Jenny
+    - family: Weiss
+      given: David M
+
+- id: effectiveness
+  title: "Coverage Is Not Strongly Correlated with Test Suite Effectiveness"
+  type: article
+  author:
+    - family: Inozemtseva
+      given: Laura
+    - family: Holmes
+      given: Reid
+  container-title: "Proceedings of the 36th International Conference on Software Engineering"
+  page: 435-445
+  issued:
+    - year: 2014
+
+- id: appropriate
+  title: "Is Mutation an Appropriate Tool for Testing Experiments?"
+  type: article
+  author:
+    - family: Andrews
+      given: J H
+    - family: Briand
+      given: L C
+    - family: Labiche
+      given: Y
+  container-title: "Proceedings of the 27th International Conference on Software Engineering"
+  issued:
+    - year: 2005
+
+- id: scrumban
+  title: "Kanban vs Scrum: How to make the most of both"
+  type: article
+  author:
+    - family: Kniberg
+      given: Henrik
+  issued:
+    - year: 2009
+      month: 6
+...
